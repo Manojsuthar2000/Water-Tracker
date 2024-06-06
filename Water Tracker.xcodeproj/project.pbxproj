@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558F25572C11BCD2001B9AF3 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F25562C11BCD2001B9AF3 /* Pages.swift */; };
+		558F25592C11CE1A001B9AF3 /* DrinkRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F25582C11CE1A001B9AF3 /* DrinkRecord.swift */; };
 		55D9F6592C104D1A00C62944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F6582C104D1A00C62944 /* AppDelegate.swift */; };
 		55D9F65B2C104D1A00C62944 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F65A2C104D1A00C62944 /* SceneDelegate.swift */; };
-		55D9F65D2C104D1A00C62944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F65C2C104D1A00C62944 /* ViewController.swift */; };
+		55D9F65D2C104D1A00C62944 /* GettingDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F65C2C104D1A00C62944 /* GettingDetailsVC.swift */; };
 		55D9F6602C104D1A00C62944 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 55D9F65F2C104D1A00C62944 /* Base */; };
 		55D9F6632C104D1A00C62944 /* Water_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F6612C104D1A00C62944 /* Water_Tracker.xcdatamodeld */; };
 		55D9F6652C104D1B00C62944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D9F6642C104D1B00C62944 /* Assets.xcassets */; };
 		55D9F6682C104D1B00C62944 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 55D9F6672C104D1B00C62944 /* Base */; };
+		55D9F6732C10903F00C62944 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F6722C10903F00C62944 /* MainVC.swift */; };
+		55D9F6752C10B0DD00C62944 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F6742C10B0DD00C62944 /* TabBarController.swift */; };
+		55D9F6772C10E44000C62944 /* MainVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F6762C10E44000C62944 /* MainVCTableViewCell.swift */; };
+		55D9F6792C1170AB00C62944 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F6782C1170AB00C62944 /* CoreDataManager.swift */; };
+		55D9F67B2C1199F100C62944 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9F67A2C1199F100C62944 /* HistoryVC.swift */; };
+		D54944F854FD8CC2AED03F4F /* Pods_Water_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6694269305133B299A9B52 /* Pods_Water_Tracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F6694269305133B299A9B52 /* Pods_Water_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Water_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558F25562C11BCD2001B9AF3 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
+		558F25582C11CE1A001B9AF3 /* DrinkRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRecord.swift; sourceTree = "<group>"; };
 		55D9F6552C104D1A00C62944 /* Water Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D9F6582C104D1A00C62944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55D9F65A2C104D1A00C62944 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55D9F65C2C104D1A00C62944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55D9F65C2C104D1A00C62944 /* GettingDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingDetailsVC.swift; sourceTree = "<group>"; };
 		55D9F65F2C104D1A00C62944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55D9F6622C104D1A00C62944 /* Water_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Water_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		55D9F6642C104D1B00C62944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D9F6672C104D1B00C62944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55D9F6692C104D1B00C62944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D9F6722C10903F00C62944 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		55D9F6742C10B0DD00C62944 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		55D9F6762C10E44000C62944 /* MainVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCTableViewCell.swift; sourceTree = "<group>"; };
+		55D9F6782C1170AB00C62944 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		55D9F67A2C1199F100C62944 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		9BC279EE834EA572480F3380 /* Pods-Water Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Water Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Water Tracker/Pods-Water Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		EC370E6184AC0DF5DF72DF4C /* Pods-Water Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Water Tracker.release.xcconfig"; path = "Target Support Files/Pods-Water Tracker/Pods-Water Tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54944F854FD8CC2AED03F4F /* Pods_Water_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,8 @@
 			children = (
 				55D9F6572C104D1A00C62944 /* Water Tracker */,
 				55D9F6562C104D1A00C62944 /* Products */,
+				F49CAE543B16644F34EDD27A /* Pods */,
+				D87F1795A90926961693F58D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +81,9 @@
 			children = (
 				55D9F6582C104D1A00C62944 /* AppDelegate.swift */,
 				55D9F65A2C104D1A00C62944 /* SceneDelegate.swift */,
-				55D9F65C2C104D1A00C62944 /* ViewController.swift */,
+				55D9F6702C10584A00C62944 /* Model */,
+				55D9F6712C10585800C62944 /* View */,
+				55D9F66F2C10583E00C62944 /* Controller */,
 				55D9F65E2C104D1A00C62944 /* Main.storyboard */,
 				55D9F6642C104D1B00C62944 /* Assets.xcassets */,
 				55D9F6662C104D1B00C62944 /* LaunchScreen.storyboard */,
@@ -70,6 +93,52 @@
 			path = "Water Tracker";
 			sourceTree = "<group>";
 		};
+		55D9F66F2C10583E00C62944 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55D9F65C2C104D1A00C62944 /* GettingDetailsVC.swift */,
+				55D9F6722C10903F00C62944 /* MainVC.swift */,
+				55D9F6742C10B0DD00C62944 /* TabBarController.swift */,
+				55D9F67A2C1199F100C62944 /* HistoryVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55D9F6702C10584A00C62944 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55D9F6782C1170AB00C62944 /* CoreDataManager.swift */,
+				558F25562C11BCD2001B9AF3 /* Pages.swift */,
+				558F25582C11CE1A001B9AF3 /* DrinkRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D9F6712C10585800C62944 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55D9F6762C10E44000C62944 /* MainVCTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D87F1795A90926961693F58D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F6694269305133B299A9B52 /* Pods_Water_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F49CAE543B16644F34EDD27A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BC279EE834EA572480F3380 /* Pods-Water Tracker.debug.xcconfig */,
+				EC370E6184AC0DF5DF72DF4C /* Pods-Water Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55D9F66C2C104D1B00C62944 /* Build configuration list for PBXNativeTarget "Water Tracker" */;
 			buildPhases = (
+				8325C8DB25F9AA99AB0A98D4 /* [CP] Check Pods Manifest.lock */,
 				55D9F6512C104D1A00C62944 /* Sources */,
 				55D9F6522C104D1A00C62944 /* Frameworks */,
 				55D9F6532C104D1A00C62944 /* Resources */,
+				9A4BD7AF72EBA49FBF01D513 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +207,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8325C8DB25F9AA99AB0A98D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Water Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4BD7AF72EBA49FBF01D513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Water Tracker/Pods-Water Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55D9F6512C104D1A00C62944 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55D9F6632C104D1A00C62944 /* Water_Tracker.xcdatamodeld in Sources */,
-				55D9F65D2C104D1A00C62944 /* ViewController.swift in Sources */,
+				55D9F6772C10E44000C62944 /* MainVCTableViewCell.swift in Sources */,
+				558F25572C11BCD2001B9AF3 /* Pages.swift in Sources */,
+				55D9F6732C10903F00C62944 /* MainVC.swift in Sources */,
+				55D9F65D2C104D1A00C62944 /* GettingDetailsVC.swift in Sources */,
+				55D9F6752C10B0DD00C62944 /* TabBarController.swift in Sources */,
+				558F25592C11CE1A001B9AF3 /* DrinkRecord.swift in Sources */,
 				55D9F6592C104D1A00C62944 /* AppDelegate.swift in Sources */,
+				55D9F6792C1170AB00C62944 /* CoreDataManager.swift in Sources */,
+				55D9F67B2C1199F100C62944 /* HistoryVC.swift in Sources */,
 				55D9F65B2C104D1A00C62944 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +327,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -270,7 +390,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -291,6 +411,7 @@
 		};
 		55D9F66D2C104D1B00C62944 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC279EE834EA572480F3380 /* Pods-Water Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,6 +440,7 @@
 		};
 		55D9F66E2C104D1B00C62944 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC370E6184AC0DF5DF72DF4C /* Pods-Water Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
